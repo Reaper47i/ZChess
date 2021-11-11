@@ -1,15 +1,22 @@
 .App {
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.board{
-  width: 80%;
-  height: 100%;
+.chessboard{
+  background-color: #f2f2f2;
+  width: 70%;
+  height: 80%;
   text-align: center;
   display: grid;
+  place-items: center;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8, 1fr);
+  outline: 10px solid rgb(5, 13, 56);
+  /* color: #212230; */
 }
+
