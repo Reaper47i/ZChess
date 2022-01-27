@@ -2,11 +2,11 @@
 Web based Chess App made in React
 
 # $--Completed--$
-  Front-End Done 
-  Basic layout of all the board and chess peices is done 
+  1. Front-End Done 
+  2. Basic layout of all the board and chess peices is done 
 
 
 # $-- Work to be done --$
-  game engine
-  peices maneuverability to-do
+  1. game engine
+  2. peices maneuverability to-do
   
